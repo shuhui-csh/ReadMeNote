@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<!-- 第一个大的linearlayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+        android:layout_weight="2" >
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" 
+         android:orientation="vertical"
+        android:background="@drawable/a12345">
+
+           <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" 
+            
+            >
+        <ImageButton
+            android:id="@+id/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_letter_t_icon" 
+            android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3" 
+       >
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:background="@drawable/a12345"
+         android:orientation="vertical">
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" 
+            
+            >
+
+        <ImageButton
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/photo_icon" 
+            
+            
+            android:layout_gravity="center_vertical"/>
+	</LinearLayout>
+        
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" 
+        android:background="@drawable/a12345"
+         android:orientation="vertical">
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" 
+            >
+        <ImageButton
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/picture_icon" 
+            android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+        
+    </LinearLayout>
+    </LinearLayout>
+<!--     下面那个大的linearlayout   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3" >
+     <!--    左边那个linearlayout -->
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="@drawable/a12345"
+         android:orientation="vertical" >
+     <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" 
+            >
+        <ImageButton
+            android:id="@+id/painting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/painting"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+        
+    </LinearLayout>
+ <!--    右边那个，还要分成两个 -->
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2" >
+<!--      分成两个之后的上半个 -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2" 
+       >
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2" 
+        android:background="@drawable/a12345">
+         <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/add_thing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clip_icon" 
+             android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+        
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2" 
+        android:background="@drawable/a12345">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mic_icon" 
+             android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+        
+    </LinearLayout>
+        
+        
+    </LinearLayout>
+ <!--    分成两个之后的下半个 -->
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3" 
+         android:background="@drawable/a12345">
+     <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/record_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spechbubble" 
+             android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+        
+        
+    </LinearLayout>
+     
+   </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>

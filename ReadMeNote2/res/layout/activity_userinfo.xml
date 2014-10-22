@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:orientation="vertical" 
+    android:background="@drawable/readme_share4">
+
+    <!--ShareSDK-Core包下封装的一个标题栏-->
+    <cn.sharesdk.framework.TitleLayout
+        android:id="@+id/llTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_back" />
+    
+
+            <LinearLayout
+                android:id="@+id/btnQz1"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_back"
+               >
+                 <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/renren" />
+                  <Button
+               android:id="@+id/btnQz"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:textColor="#009100"
+                
+                android:background="@null"
+                android:text="@string/get_user_info_rr"
+                android:textSize="16dp" />
+                 
+            </LinearLayout>
+			
+            <LinearLayout
+                 android:id="@+id/btnRr1"
+               android:layout_above="@+id/btnQz1"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_back">
+               >
+                <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/qzone" />
+            <Button
+                android:id="@+id/btnRr"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:textColor="#009100"
+               
+                android:background="@null"
+                android:text="@string/get_user_info_rr"
+                android:textSize="16dp" />
+			</LinearLayout>
+			<LinearLayout
+                 android:id="@+id/btnSw1"
+               android:layout_above="@+id/btnRr1"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_back">
+             <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/sina_weibo" />
+               
+            <Button
+                android:id="@+id/btnSw"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+              
+                android:textColor="#009100"
+                android:background="@null"
+                android:text="@string/get_user_info_sw"
+                android:textSize="16dp" />
+</LinearLayout>
+<LinearLayout
+                 android:id="@+id/btnTc1"
+               android:layout_below="@+id/btnQz1"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/btn_back">
+             <ImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/qzone" />
+            <Button
+                android:id="@+id/btnTc"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/btnQz"
+               android:textColor="#009100"
+               
+                android:background="@null"
+                android:text="@string/get_user_info_tc"
+                android:textSize="16dp" />
+            </LinearLayout>
+
+</RelativeLayout>

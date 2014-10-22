@@ -1,0 +1,25 @@
+
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- 有焦点时的背景 -->   
+        
+        <item android:state_focused="true" >   
+        <shape> 
+    <solid android:color="#00000000" /> 
+    <corners android:radius="5px"/>
+    <stroke  
+        android:width="5px"  
+        android:color="#5DD5FA" />  
+</shape>
+</item>
+
+        <item >
+            <shape >
+                <solid android:color="#00000000" /> 
+    <corners android:radius="5px"/>
+     <stroke  
+        android:width="2px"  
+        android:color="#000000" />  
+</shape>
+           
+        </item>
+    </selector>  

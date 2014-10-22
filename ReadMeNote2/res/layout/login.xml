@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/zhuce_wutu" >
+
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <EditText
+            android:id="@+id/name_ed"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/shurukuang"
+            android:paddingLeft="10dp"
+            android:ems="6"
+            android:hint=" 请输入Read Me账号" />
+       
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginTop="20dp"
+         >
+
+      
+
+        <EditText
+            android:id="@+id/key_ed"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_weight="1"
+            android:ems="6" 
+             android:layout_marginLeft="15dp"
+            android:hint=" 请输入密码"
+            android:password="true"
+             android:padding="10dp"
+             android:background="@drawable/shurukuang"/>
+
+    </LinearLayout>
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/but_log"
+            android:layout_width="99dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/dengru" />
+
+        <Button
+            android:id="@+id/but_register"
+            android:layout_width="99dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" 
+            android:background="@drawable/zhuce"
+            /> 
+
+    </LinearLayout>
+
+</LinearLayout>
